@@ -1,0 +1,151 @@
+.top {
+  background-color: rgb(0, 255, 76);
+  top: 40%
+}
+
+link {
+  color: red;
+}
+
+.bottom {
+  color: white;
+  bottom: 80%;
+}
+
+.bottom  {
+  color: black;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  font-size: xx-large;
+  color: white;
+  background: url(../Movies/popcorn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 500px;
+  height: 300px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 350px;
+  top: 80px;
+  background-color: rgb(109, 90, 90); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Black w/ opacity */
+  text-align: center;
+}
+
+input[type=text], input[type=password], input[type=number] {
+  width: 100%;
+  padding: 12px 80px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+label {
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  grid-column-gap: 0px;
+  overflow-x: visible;
+  overflow-y: scroll;
+  font-size: small;
+}
+
+
+.card {
+  height: 200px;
+  width: 200px;
+  block-size: fit-content;
+  background-color: aquamarine;
+  color: brown;
+  text-size-adjust: small;
+}
+
+.card-image {
+  width: 100px;
+}
+
+/* .card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.dashnav {
+  background-color: black;
+  color: #aa7e04;
+}
+
+.regnav {
+  border: 3px solid #f1f1f1;
+  width: 500px;
+  height: 500px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 350px;
+  top: 80px;
+  background-color: rgb(109, 90, 90); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Black w/ opacity */
+  text-align: center;
+}
+
+.regnav {
+  border: 3px solid #f1f1f1;
+  width: 500px;
+  height: 500px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 350px;
+  top: 80px;
+  background-color: rgb(109, 90, 90); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Black w/ opacity */
+  text-align: center;
+}
