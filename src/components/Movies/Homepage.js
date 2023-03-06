@@ -12,8 +12,7 @@ function Homepage() {
                 <Link to="/login">Login</Link>
                 <Link to="/mymovies">My Movies</Link>
             </nav>
-            <h1 className="bottom">Welcome to MovieInterest.This is the best movie site to search movies and add any movie that you like.I hope 
-                you enjoy your experience!
+            <h1 className="bottom">Welcome to Moviefinder.Where all you cinephiles can keep track of your favorites. Have a blast!
             </h1>
         </div>
     )
