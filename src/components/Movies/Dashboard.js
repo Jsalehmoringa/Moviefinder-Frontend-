@@ -14,14 +14,14 @@ function Dashboard() {
     setMovies(updatedMovies);
   }
 
-  useEffect(() => {
-    fetch("http://127.0.0.1:9292/movies")
+    useEffect(() => {
+    fetch("https://move-7msy.onrender.com/movies")
     .then((response) => response.json())
     .then((data) => setMovies(data))
     }, [])
 
     function handleSearch(query) {
-    fetch (`http://127.0.0.1:9292/search?query=${query}`) 
+    fetch (`https://move-7msy.onrender.com/search?query=${query}`) 
     .then((response) => response.json())
     .then((results) => {
       setMovies(results)
@@ -29,12 +29,11 @@ function Dashboard() {
     })
     }
 
-    
-
     return(
-        <div>
+        <div className="dash">
         <nav className="dashnav">
             <Link to="/addmovie">Add Movie</Link>
+            <Link to="/">Back to Homepage</Link>
             <Search onSearch={handleSearch}/>
         </nav>
           <Allmovies movies={movies} handleDeleteMovie={handleDeleteMovie}/>

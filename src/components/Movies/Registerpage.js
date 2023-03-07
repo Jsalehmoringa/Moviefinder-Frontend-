@@ -12,7 +12,7 @@ function Registerpage() {
     function handleAdd(e) {
         e.preventDefault()
 
-    fetch('http://127.0.0.1:9292/auth/register', {
+    fetch('https://move-7msy.onrender.com/auth/register', {
     method: 'POST',
     body: JSON.stringify({
         first_name: first,

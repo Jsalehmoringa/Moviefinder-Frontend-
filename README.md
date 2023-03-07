@@ -2,20 +2,22 @@
 This is a web application that allows users to share information about movies. The application is built using React for the frontend and Sinatra for the backend. The following are the MVPs that have been implemented in the application:
 
 ## Users should be able to register/login to the application.
-A user should be able to add a new movie.
-A user can view all the movies they have added.
-A user should be able to view all the available movies.
-A user should be able to search for a movie through title or year.
-A user should be able to update details of movies they added.
-A user should be able to remove details of movies they added.
-Users should be NOT able to update or delete movies they have not added.
-In order to use the application, the user must be logged in.
+- A user should be able to add a new movie.
+- A user can view all the movies they have added.
+- A user should be able to view all the available movies.
+- A user should be able to search for a movie through title or year.
+- A user should be able to update details of movies they added.
+- A user should be able to remove details of movies they added.
+- Users should be NOT able to update or delete movies they have not added.
+- In order to use the application, the user must be logged in.
 
 ## Technologies Used
-React, Sinatra, SQLite3
+- React
+- Sinatra
+- SQLite3
 
 ## Deployment link for the react app
-https://phase-3-final-project.vercel.app/
+ - moviefinder-frontend.vercel.app
 
 ## Deployment link for the Sinatra app
 
@@ -71,5 +73,5 @@ user_id: integer (foreign key referencing the id field in the Users table)
 # Conclusion
 The Movie Finder application is a basic web application that allows users to share information about movies. It has been built using React for the frontend and Sinatra for the backend. The application implements the MVPs that were required for the project, and also incorporates authentication and authorization measures to ensure that users are only able to perform actions that they are authorized to perform.
 
-# Author : Jessica Gichuru
-# github : https://github.com/Jesalim
+# Author : Jamil Saleh
+# github : https://github.com/Jsalehmoringa

@@ -11,7 +11,7 @@ function Login() {
     function handleSubmit(e) {
         e.preventDefault()
 
-    fetch("http://127.0.0.1:9292/auth/login", {
+    fetch("https://move-7msy.onrender.com/auth/login", {
         method: 'POST',
         body: JSON.stringify({
         email: user_email,

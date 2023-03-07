@@ -18,7 +18,7 @@ const [mov_url, SetMov_url] = useState("")
 function handleUpdate(e) {
     e.preventDefault()
 
-fetch(`http://127.0.0.1:9292/movies/update/${params.id}`, {
+fetch(`https://move-7msy.onrender.com/movies/update/${params.id}`, {
 method: 'PUT',
 body: JSON.stringify({
     title: mov_title,
@@ -37,7 +37,7 @@ body: JSON.stringify({
 
 return(
     <form className="addmov" onSubmit={e => handleUpdate(e)}>
-    <label><b>title</b></label>
+    <label><b>Title</b></label>
     <input type="text" placeholder="Enter title" value={mov_title} onChange={e => SetMov_title(e.target.value)} required></input>
     <label><b>Year</b></label>
     <input type="text" placeholder="Enter year" value={mov_year} onChange={e => SetMov_year(e.target.value)} required></input>
